@@ -3,4 +3,9 @@
 
 const firstNumber = Number.parseInt(prompt('Type first Number'),10);
 const secondNumber = Number.parseInt(prompt('Type second Number'),10);
-console.log(firstNumber, secondNumber );
+
+    if (firstNumber > secondNumber) {
+        console.log(firstNumber);
+    } else (secondNumber > firstNumber) 
+        console.log(secondNumber);
+    
