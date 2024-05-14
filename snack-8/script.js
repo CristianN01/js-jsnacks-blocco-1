@@ -20,3 +20,13 @@ const container = document.querySelector(".container");
 
 container.appendChild(newDivRed);
 container.appendChild(newDivGreen);
+
+// imposto degli attributi
+
+newDivRed.setAttribute("class", "red");
+newDivGreen.setAttribute("class", "green");
+
+// creiamo un array
+
+const numbers =[1, 2, 3, 4, 5, 6, 7, 8, 9, 10] 
+
